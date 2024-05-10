@@ -1,6 +1,6 @@
 import React from "react";
 
-const targetolog = () => {
+const Targetolog = () => {
   return (
     <div className="targetolog">
       <p>
@@ -15,4 +15,4 @@ const targetolog = () => {
   );
 };
 
-export default targetolog;
+export default Targetolog;

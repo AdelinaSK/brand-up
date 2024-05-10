@@ -1,5 +1,5 @@
 import React from "react";
-import png from "../images/Frame (1).png";
+import { NavLink } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -11,7 +11,6 @@ const HomePage = () => {
             продвижению вашего бизнеса 💵Увеличим ваши продажи в социальных
             сетях
           </li>
-          <img src={png} alt="png" />
         </div>
         <div className="homepage-service">
           <li className="service">

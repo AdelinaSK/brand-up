@@ -1,6 +1,0 @@
-/* @import "../pages/HomePage.jsx" */
-.container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, ifr));
-    grid-gap: 10px;
-}

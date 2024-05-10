@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../../header/Navbar";
+import Navbar from '../../navbar/Navbar';
 import Foot from "../../Footer/Foot";
 const Layouts = ({ children }) => {
   return (
     <>
-      <Header />
+      <Navbar />
       {children}
       <Foot />
     </>
