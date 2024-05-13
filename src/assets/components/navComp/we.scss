@@ -1,0 +1,42 @@
+@import './We.scss';
+.we {
+    background-color: #f0f0f0; 
+    padding: 20px;
+  
+    .we__container {
+      max-width: 1200px; 
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 8px; 
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+  
+      h1 {
+        color: #2a2a2a;
+        margin-bottom: 20px; 
+      }
+  
+      .text {
+        font-size: 16px;
+        color: #4a4a4a; 
+        line-height: 1.5; 
+        margin-bottom: 20px; 
+      }
+  
+      li {
+        font-size: 14px; 
+        margin-top: 10px; 
+        color: #333; 
+  
+        &:before {
+          content: '•';
+          color: #0066ff; 
+          font-weight: bold; 
+          display: inline-block; 
+          width: 1em;
+          margin-left: -1em; 
+        }
+      }
+    }
+  }
+  

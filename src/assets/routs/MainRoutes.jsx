@@ -1,17 +1,20 @@
 import React from "react";
 import HomePage from "../pages/HomePage";
-import Layouts from '../components/Layouts/Layouts';
-import Copiraiter from "../components/Layouts/Copiraiter";
+import Layouts from "../components/Layouts/Layouts";
 import GrafDizain from "../components/Layouts/GrafDizain";
 import Smm from "../components/Layouts/Smm";
 import Targetolog from "../components/Layouts/Targetolog";
 import Meneger from "../components/Layouts/Menedger";
 import { Route, Routes } from "react-router-dom";
+import Contact from "../components/navComp/Contact";
+import Price from "../components/navComp/Price";
+import We from "../components/navComp/We";
+import Copiraiter from "../components/Layouts/Copiraiter"
 
 export const PUBLIC_ROUTES = [
   {
     id: 1,
-    path: "/home",
+    path: "/",
     element: (
       <Layouts>
         <HomePage />
@@ -63,9 +66,36 @@ export const PUBLIC_ROUTES = [
       </Layouts>
     ),
   },
+  {
+    id: 7,
+    path: "/cont",
+    element: (
+      <Layouts>
+        <Contact />
+      </Layouts>
+    ),
+  },
+  {
+    id: 8,
+    path: "/price",
+    element: (
+      <Layouts>
+        <Price />
+      </Layouts>
+    ),
+  },
+  {
+    id: 9,
+    path: "/brand-up",
+    element: (
+      <Layouts>
+        <We />
+      </Layouts>
+    ),
+  },
 ];
 
-export default  function MainRoutes(){
+export default function MainRoutes() {
   return (
     <Routes>
       {PUBLIC_ROUTES.map((route) => (
@@ -73,4 +103,4 @@ export default  function MainRoutes(){
       ))}
     </Routes>
   );
-};
+}

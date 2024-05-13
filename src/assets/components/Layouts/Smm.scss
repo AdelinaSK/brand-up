@@ -1,0 +1,30 @@
+@import './Smm.scss';
+.smm-servise {
+    background-color: #f7f8fa;
+    padding: 20px; 
+  
+    .smm__container {
+      max-width: 900px; 
+      margin: auto; 
+      background: #fff;
+      padding: 25px; 
+      border-radius: 10px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  
+      .smm-text {
+        p {
+          color: #333;
+          font-size: 16px;
+          line-height: 1.6; 
+          margin-bottom: 15px;
+  
+          li {
+            margin-left: 20px; 
+            list-style-type: disc; 
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  

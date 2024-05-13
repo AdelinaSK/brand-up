@@ -1,0 +1,33 @@
+@import './menedger.scss';
+.progect-meneger {
+    background-color: #f4f4f9;
+    padding: 20px;
+  
+    .prog__container {
+      max-width: 800px; 
+      margin: 20px auto; 
+      background-color: #ffffff; 
+      padding: 30px; 
+      border-radius: 8px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+  
+      h1 {
+        color: #333; 
+        font-size: 24px; 
+        margin-bottom: 18px;
+      }
+  
+      p, li {
+        color: #666; 
+        font-size: 16px; 
+        line-height: 1.5; 
+      }
+  
+      li {
+        margin-left: 20px; 
+        list-style-type: circle; 
+        margin-bottom: 10px; 
+      }
+    }
+  }
+  

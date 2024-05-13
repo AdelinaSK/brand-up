@@ -1,6 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import { Link as LinkIcon } from '@mui/icons-material';
 
 const Foot = () => {
   return (
@@ -8,11 +6,11 @@ const Foot = () => {
       <div className="footer__container">
         <div className="footer_menu">
           <div className="footer_text">
-            <NavLink to={'/'}>Главная</NavLink>
-            <li>Контакты</li>
-            <div className="footer_mine_text">
-              <a href="https://l.instagram.com/?u=http%3A%2F%2Fwa.me%2F996221241313&e=AT2pB_hvknc4dg1_jVOQIoAIIIjw7xJxiQWFXloKPXlE787GaEDfsMKEmE-ib9qWN69iqJ9lgUvOzpk0662RoXX7x3FqyBpeN8lCKfI" target="_blank" rel="noopener noreferrer"></a>
-              <LinkIcon/>Instagram
+            <p>Контакты</p>
+            <p>Instagram</p>
+            <div className="foot__mine_text">
+              <p>+996221241313</p>
+              <p>@brandup.kg</p>
             </div>
           </div>
         </div>

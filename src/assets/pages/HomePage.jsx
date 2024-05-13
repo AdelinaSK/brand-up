@@ -6,31 +6,32 @@ const HomePage = () => {
     <div className="homepage">
       <div className="container">
         <div className="homepage-text">
-          <li>
+          <p>
             Маркетинговое агентство «BrandUp» 📈Полный спектр услуг по
             продвижению вашего бизнеса 💵Увеличим ваши продажи в социальных
             сетях
-          </li>
+          </p>
         </div>
         <div className="homepage-service">
           <li className="service">
             <p>Проект менеджер</p>
-            <NavLink to={'/meneger'}>Подробнее</NavLink>
+            <NavLink to={"/men"}>Подробнее</NavLink>
           </li>
           <li className="service">
             <p>Таргетолог или трафик менеджер</p>
-            <NavLink to={'/target'}>Подробнее</NavLink>
+            <NavLink to={"/targ"}>Подробнее</NavLink>
           </li>
           <li className="service">
             <p>Дизайнер и его роль</p>
-            <NavLink to={'/dizain'}>Подробнее</NavLink>
+            <NavLink to={"/diz"}>Подробнее</NavLink>
           </li>
           <li className="service">
             <p>SMM-специалист и его обязанности</p>
-            <NavLink to={'/smm'}>Подробнее</NavLink>
-          </li><li className="service">
+            <NavLink to={"/smm"}>Подробнее</NavLink>
+          </li>
+          <li className="service">
             <p>Копирайтер</p>
-            <NavLink to={'/copirait'}>Подробнее</NavLink>
+            <NavLink to={"/copi"}>Подробнее</NavLink>
           </li>
         </div>
       </div>

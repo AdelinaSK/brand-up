@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import icon from "../images/BRAND UP.png"
+// import icons from "../images/BRAND UP2.png"
 
 const Navbar = () => {
   return (
@@ -7,35 +9,30 @@ const Navbar = () => {
       <div className="navbar__container">
         <div className="navbar__row">
           <NavLink to={"/"} className="header-logo">
-            {/* <img src={logo} alt="Logo" /> */}
+            <img src={icon} alt="Logo" />
           </NavLink>
           <div className="navbar__menu">
             <ul className="navbar-list">
-              <li className="header-item">
+              <div className="header-item">
                 <NavLink to={"/"} className="navbar-link">
                   Главная
                 </NavLink>
-              </li>
-              <li className="navbar-item">
-                <NavLink to={"/ser"} className="navbar-link">
-                  Услуги
-                </NavLink>
-              </li>
-              <li className="navbar-item">
+              </div>
+              <div className="navbar-item">
                 <NavLink to={"/price"} className="navbar-link">
                   Прайсы
                 </NavLink>
-              </li>
-              <li className="navbar-item">
+              </div>
+              <div className="navbar-item">
                 <NavLink to={"/cont"} className="navbar-link">
                   Контакты
                 </NavLink>
-              </li>
-              <li className="navbar-item">
-                <NavLink to={"/we"} className="navbar-link">
+              </div>
+              <div className="navbar-item">
+                <NavLink to={"/brand-up"} className="navbar-link">
                   О нас
                 </NavLink>
-              </li>
+              </div>
             </ul>
           </div>
         </div>
