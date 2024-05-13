@@ -22,7 +22,7 @@ const HomePage = () => {
             <NavLink to={"/targ"}>Подробнее</NavLink>
           </li>
           <li className="service">
-            <p>Дизайнер и его роль</p>
+            <p>Графический дизайнер и его роль</p>
             <NavLink to={"/diz"}>Подробнее</NavLink>
           </li>
           <li className="service">

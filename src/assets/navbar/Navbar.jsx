@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import icon from "../images/BRAND UP.png"
-// import icons from "../images/BRAND UP2.png"
 
 const Navbar = () => {
   return (

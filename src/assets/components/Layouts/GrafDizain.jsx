@@ -4,7 +4,7 @@ const GrafDizain = () => {
   return (
     <div className="dizainer">
       <div className="diz-container">
-        <h1>графический дизайнер</h1>
+        <h1>Графический дизайнер</h1>
         <p>Отвечает за всю визуальную составляющую:</p>
         <li>Обложка для общества</li>
         <li>Шаблоны для оформления постов</li>

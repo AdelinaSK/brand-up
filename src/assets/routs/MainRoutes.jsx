@@ -4,7 +4,7 @@ import Layouts from "../components/Layouts/Layouts";
 import GrafDizain from "../components/Layouts/GrafDizain";
 import Smm from "../components/Layouts/Smm";
 import Targetolog from "../components/Layouts/Targetolog";
-import Meneger from "../components/Layouts/Menedger";
+import Manager from "../components/Layouts/Manager";
 import { Route, Routes } from "react-router-dom";
 import Contact from "../components/navComp/Contact";
 import Price from "../components/navComp/Price";
@@ -44,7 +44,7 @@ export const PUBLIC_ROUTES = [
     path: "/men",
     element: (
       <Layouts>
-        <Meneger />
+        <Manager />
       </Layouts>
     ),
   },
