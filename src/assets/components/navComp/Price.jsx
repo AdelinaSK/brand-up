@@ -1,11 +1,13 @@
 import React from "react";
+import '../styles/Price.scss'
 
 const Price = () => {
   return (
     <div className="price">
-      <div className="rpice__container">
-        <p className="price-title">
+      <div className="price__container">
+        <h1 className="price-title">
           Пакет «Эконом» 35000
+        </h1>
           <ul>
             Над проектом будут работать:
             <li>2 специалиста (смм-специалист, графический дизайнер).</li>
@@ -19,9 +21,9 @@ const Price = () => {
             <li>Анализ конкурентов (анализ ца).</li>
             <li>Отслеживание за трендами.</li>
           </ul>
-        </p>
-        <p className="price-title">
+        <h1 className="price-title">
           Пакет «Стандарт» 55000
+        </h1>
           <ul>
             Над проектом будут работать:
             <li>
@@ -38,7 +40,6 @@ const Price = () => {
             <li>Настройка таргета через ADS MANAGER.</li>
             <li>Упаковка профиля (шапка, подвал, актуальные).</li>
           </ul>
-        </p>
       </div>
     </div>
   );

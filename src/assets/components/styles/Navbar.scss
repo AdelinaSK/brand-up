@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  background: linear-gradient(to right, #000046, #1cb5e0);
+  .navbar__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  .header-logo {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 1015px) {
+    .header-logo img {
+      width: 80%;
+    }
+  }
+
+  .header-item {
+    margin: 0 15px;
+    text-align: center;
+    color: white;
+  }
+
+  @media (min-width: 769px) and (max-width: 1015px) {
+    .navbar__container {
+      flex-direction: column; /* Располагаем элементы вертикально */
+      align-items: center; /* Выравниваем элементы по центру */
+    }
+
+    .header-item {
+      margin: 0 15px;
+    }
+  }
+
+  @media (min-width: 1016px) {
+    .navbar__container {
+      flex-direction: row; /* Располагаем элементы горизонтально */
+      justify-content: space-between; /* Равномерно распределяем элементы */
+      align-items: center; /* Выравниваем элементы по вертикали */
+    }
+  }
+}

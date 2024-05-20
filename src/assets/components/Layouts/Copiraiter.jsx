@@ -1,10 +1,12 @@
 import React from "react";
+import '../styles/Copiraiter.scss'
 
 const Copiraiter = () => {
   return (
     <div className="copiraiter">
       <div className="copi__container">
         <div className="copi-text">
+          <h1>Копирайтер</h1>
           <p>
             Копирайтер — это специалист по написанию текстов для рекламы,
             маркетинга и информационных материалов. Основная задача копирайтера

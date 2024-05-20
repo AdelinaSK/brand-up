@@ -10,6 +10,7 @@ import Contact from "../components/navComp/Contact";
 import Price from "../components/navComp/Price";
 import We from "../components/navComp/We";
 import Copiraiter from "../components/Layouts/Copiraiter"
+import Mobilograf from "../components/Layouts/Mobilograf";
 
 export const PUBLIC_ROUTES = [
   {
@@ -90,6 +91,15 @@ export const PUBLIC_ROUTES = [
     element: (
       <Layouts>
         <We />
+      </Layouts>
+    ),
+  },
+  {
+    id:10,
+    path: "/mobilograf",
+    element: (
+      <Layouts>
+        <Mobilograf/>
       </Layouts>
     ),
   },

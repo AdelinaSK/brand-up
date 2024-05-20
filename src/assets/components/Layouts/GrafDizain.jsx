@@ -1,9 +1,10 @@
 import React from "react";
+import '../styles/GrafDizain.scss'
 
 const GrafDizain = () => {
   return (
     <div className="dizainer">
-      <div className="diz-container">
+      <div className="diz__container">
         <h1>Графический дизайнер</h1>
         <p>Отвечает за всю визуальную составляющую:</p>
         <li>Обложка для общества</li>
