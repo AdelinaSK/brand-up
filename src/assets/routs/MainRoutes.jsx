@@ -12,6 +12,7 @@ import We from "../components/navComp/We";
 import Copiraiter from "../components/Layouts/Copiraiter"
 import Mobilograf from "../components/Layouts/Mobilograf";
 
+
 export const PUBLIC_ROUTES = [
   {
     id: 1,
